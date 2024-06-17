@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CSWorkspace\\ScreenSoundApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68E5DC1B-3505-44EB-821D-BDBB88CB90E2}|ScreenSoundApp\\ScreenSoundApp.csproj|d:\\csworkspace\\screensoundapp\\screensoundapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E5DC1B-3505-44EB-821D-BDBB88CB90E2}|ScreenSoundApp\\ScreenSoundApp.csproj|solutionrelative:screensoundapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E5DC1B-3505-44EB-821D-BDBB88CB90E2}|ScreenSoundApp\\ScreenSoundApp.csproj|d:\\csworkspace\\screensoundapp\\screensoundapp\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E5DC1B-3505-44EB-821D-BDBB88CB90E2}|ScreenSoundApp\\ScreenSoundApp.csproj|solutionrelative:screensoundapp\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E5DC1B-3505-44EB-821D-BDBB88CB90E2}|ScreenSoundApp\\ScreenSoundApp.csproj|d:\\csworkspace\\screensoundapp\\screensoundapp\\models\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E5DC1B-3505-44EB-821D-BDBB88CB90E2}|ScreenSoundApp\\ScreenSoundApp.csproj|solutionrelative:screensoundapp\\models\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E5DC1B-3505-44EB-821D-BDBB88CB90E2}|ScreenSoundApp\\ScreenSoundApp.csproj|d:\\csworkspace\\screensoundapp\\screensoundapp\\models\\band.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E5DC1B-3505-44EB-821D-BDBB88CB90E2}|ScreenSoundApp\\ScreenSoundApp.csproj|solutionrelative:screensoundapp\\models\\band.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Band.cs",
+              "DocumentMoniker": "D:\\CSWorkspace\\ScreenSoundApp\\ScreenSoundApp\\Models\\Band.cs",
+              "RelativeDocumentMoniker": "ScreenSoundApp\\Models\\Band.cs",
+              "ToolTip": "D:\\CSWorkspace\\ScreenSoundApp\\ScreenSoundApp\\Models\\Band.cs",
+              "RelativeToolTip": "ScreenSoundApp\\Models\\Band.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:43:07.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Music.cs",
+              "DocumentMoniker": "D:\\CSWorkspace\\ScreenSoundApp\\ScreenSoundApp\\Models\\Music.cs",
+              "RelativeDocumentMoniker": "ScreenSoundApp\\Models\\Music.cs",
+              "ToolTip": "D:\\CSWorkspace\\ScreenSoundApp\\ScreenSoundApp\\Models\\Music.cs",
+              "RelativeToolTip": "ScreenSoundApp\\Models\\Music.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T02:53:16.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CSWorkspace\\ScreenSoundApp\\ScreenSoundApp\\Program.cs",
+              "RelativeDocumentMoniker": "ScreenSoundApp\\Program.cs",
+              "ToolTip": "D:\\CSWorkspace\\ScreenSoundApp\\ScreenSoundApp\\Program.cs",
+              "RelativeToolTip": "ScreenSoundApp\\Program.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAUwGQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T02:49:47.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Album.cs",
+              "DocumentMoniker": "D:\\CSWorkspace\\ScreenSoundApp\\ScreenSoundApp\\Models\\Album.cs",
+              "RelativeDocumentMoniker": "ScreenSoundApp\\Models\\Album.cs",
+              "ToolTip": "D:\\CSWorkspace\\ScreenSoundApp\\ScreenSoundApp\\Models\\Album.cs",
+              "RelativeToolTip": "ScreenSoundApp\\Models\\Album.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T03:31:11.404Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
