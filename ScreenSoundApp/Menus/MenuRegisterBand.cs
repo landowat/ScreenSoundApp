@@ -1,5 +1,4 @@
-﻿//using OpenAI_API;
-using ScreenSoundApp.Models;
+﻿using ScreenSoundApp.Models;
 
 namespace ScreenSoundApp.Menus;
 
@@ -14,18 +13,6 @@ internal class MenuRegisterBand : Menu
 
         Console.Write("Write the band name: ");
         Band newBand = new Band(Console.ReadLine()!);
-
-        /*var client = new OpenAIAPI("sk-proj-erkbxgsk2u7KeHVT3rSpT3BlbkFJ8H9jI4K8ndIV1u61dcr8");
-
-        var chat = client.Chat.CreateConversation();
-
-        chat.AppendSystemMessage($"Give 1 paragraph summary of {newBand.BandName} band");
-
-        string response = chat.GetResponseFromChatbotAsync()
-            .GetAwaiter()
-            .GetResult();
-
-        newBand.Summary = response;*/
 
         bandList.Add(newBand.BandName!, newBand);
 
