@@ -1,4 +1,4 @@
-﻿using ScreenSoundApp;
+﻿using ScreenSoundApp.Models;
 
 internal interface IRate
 {

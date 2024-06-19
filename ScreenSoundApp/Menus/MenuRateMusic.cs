@@ -4,9 +4,9 @@ namespace ScreenSoundApp.Menus;
 
 internal class MenuRateMusic : Menu
 {
-    public override void Execute(Dictionary<string, Band> bandList)
+    public override void ExecuteAsync(Dictionary<string, Band> bandList)
     {
-        base.Execute(bandList);
+        base.ExecuteAsync(bandList);
         string choiceMenuMessage = "Rating Music";
 
         printTitleOptions(choiceMenuMessage);

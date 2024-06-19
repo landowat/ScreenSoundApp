@@ -4,9 +4,9 @@ namespace ScreenSoundApp.Menus;
 
 internal class MenuListAlbumMusics : Menu
 {
-    public override void Execute(Dictionary<string, Band> bandList)
+    public override void ExecuteAsync(Dictionary<string, Band> bandList)
     {
-        base.Execute(bandList);
+        base.ExecuteAsync(bandList);
         string choiceMenuMessage = "Listing Album Musics";
 
         printTitleOptions(choiceMenuMessage);
@@ -46,39 +46,5 @@ internal class MenuListAlbumMusics : Menu
             Console.ReadLine();
             return;
         }
-        /*foreach (Band band in bandList)
-        {
-            if (band.BandName == bandName)
-            {
-                Console.Write("Write the Album name: ");
-                string bandAlbum = Console.ReadLine()!;
-
-                foreach (Album album in band.Albums)
-                {
-                    if (album.AlbumName == bandAlbum)
-                    {
-                        Console.Clear();
-                        printTitleOptions(choiceMenuMessage);
-
-                        Console.WriteLine($"Band: {band.BandName}\nAlbum: {album.AlbumName}\n");
-
-                        album.ShowAlbumMusics();
-
-                        Console.WriteLine("\nPress any key to return...");
-                        Console.ReadLine();
-                        return;
-                    }
-                }
-
-                Console.WriteLine($"The Album {bandAlbum} was not found.");
-                Console.ReadLine();
-                return;
-            }
-        }
-
-        Console.WriteLine($"The band {bandName} was not found.");
-        Console.WriteLine("\nPress any key to return...");
-        Console.ReadLine();
-        return;*/
     }
 }

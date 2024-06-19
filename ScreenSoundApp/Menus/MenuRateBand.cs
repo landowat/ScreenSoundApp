@@ -4,9 +4,9 @@ namespace ScreenSoundApp.Menus;
 
 internal class MenuRateBand : Menu
 {
-    public override void Execute(Dictionary<string, Band> bandList)
+    public override void ExecuteAsync(Dictionary<string, Band> bandList)
     {
-        base.Execute(bandList);
+        base.ExecuteAsync(bandList);
         string choiceMenuMessage = "Rating Band";
 
         printTitleOptions(choiceMenuMessage);
@@ -27,27 +27,5 @@ internal class MenuRateBand : Menu
             Console.ReadLine();
             return;
         }
-
-        /*foreach (Band band in bandList)
-        {
-            if (band.BandName == bandName)
-            {
-                Console.Write("\nChoose a grade from 0 to 10:");
-                Rating bandGrade = Rating.Parse(Console.ReadLine()!);
-
-                band.addRate(bandGrade);
-
-                Console.WriteLine($"Grade given was {bandGrade.Rate}");
-
-                Console.WriteLine("\nPress any key to return...");
-                Console.ReadLine();
-                return;
-            }
-        }
-
-        Console.WriteLine($"The band {bandName} was not found.");
-        Console.WriteLine("\nPress any key to return...");
-        Console.ReadLine();
-        return;*/
     }
 }

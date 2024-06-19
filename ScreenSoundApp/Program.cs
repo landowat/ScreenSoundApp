@@ -1,6 +1,5 @@
 ﻿using ScreenSoundApp.Models;
 using ScreenSoundApp.Menus;
-using ScreenSoundApp;
 
 // Creating Bands
 Band bandLP = new Band("Linkin Park");
@@ -63,7 +62,7 @@ bool menuOptions()
     if (menuList.ContainsKey(choiceInt))
     {
         Menu menu = menuList[choiceInt];
-        menu.Execute(bandList);
+        menu.ExecuteAsync(bandList);
     }
     else if (choiceInt == -1)
     {

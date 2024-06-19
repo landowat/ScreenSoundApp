@@ -4,9 +4,9 @@ namespace ScreenSoundApp.Menus;
 
 internal class MenuRegisterBand : Menu
 {
-    public override void Execute(Dictionary<string, Band> bandList)
+    public override void ExecuteAsync(Dictionary<string, Band> bandList)
     {
-        base.Execute(bandList);
+        base.ExecuteAsync(bandList);
         string choiceMenuMessage = "New Band Registry Option";
 
         printTitleOptions(choiceMenuMessage);
