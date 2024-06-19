@@ -10,6 +10,7 @@ internal class Band : IRate
     public Dictionary<string, Album> Albums = new Dictionary<string, Album>();
     public List<Rating> Rates = new ();
     public string? BandName { get; }
+    public string? Summary { get; set; }
     public double BandAverage 
     {
         get

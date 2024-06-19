@@ -4,9 +4,9 @@ namespace ScreenSoundApp.Menus;
 
 internal class MenuRegisterAlbum : Menu
 {
-    public override void Execute(Dictionary<string, Band> bandList)
+    public override void ExecuteAsync(Dictionary<string, Band> bandList)
     {
-        base.Execute(bandList);
+        base.ExecuteAsync(bandList);
         string choiceMenuMessage = "New Album Registry Option";
 
         printTitleOptions(choiceMenuMessage);
@@ -36,29 +36,5 @@ internal class MenuRegisterAlbum : Menu
             Console.ReadLine();
             return;
         }
-
-        /*foreach (Band band in bandList)
-        {
-            if (band.BandName == bandName)
-            {
-                Console.Write("Write the Album name: ");
-                string bandAlbum = Console.ReadLine()!;
-                Album album = new Album(bandAlbum);
-                band.addAlbum(album);
-
-                printTitleOptions(choiceMenuMessage);
-
-                Console.WriteLine($"Album {bandAlbum} was sucessfully created!");
-
-                Console.WriteLine("\nPress any key to return...");
-                Console.ReadLine();
-                return;
-            }
-        }
-
-        Console.WriteLine($"The band {bandName} was not found.");
-        Console.WriteLine("\nPress any key to return...");
-        Console.ReadLine();
-        return;*/
     }
 }

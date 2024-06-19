@@ -1,4 +1,4 @@
-﻿namespace ScreenSoundApp;
+﻿namespace ScreenSoundApp.Models;
 
 public class Rating
 {

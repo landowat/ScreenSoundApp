@@ -44,7 +44,7 @@ internal class Menu
         Console.WriteLine(messageLine + "\n");
     }
 
-    public virtual void Execute(Dictionary<string, Band> bandList)
+    public virtual void ExecuteAsync(Dictionary<string, Band> bandList)
     {
         Console.Clear();
     }
