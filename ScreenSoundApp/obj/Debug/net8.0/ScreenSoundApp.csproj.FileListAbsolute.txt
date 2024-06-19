@@ -12,3 +12,4 @@ D:\CSWorkspace\ScreenSoundApp\ScreenSoundApp\obj\Debug\net8.0\refint\ScreenSound
 D:\CSWorkspace\ScreenSoundApp\ScreenSoundApp\obj\Debug\net8.0\ScreenSoundApp.pdb
 D:\CSWorkspace\ScreenSoundApp\ScreenSoundApp\obj\Debug\net8.0\ScreenSoundApp.genruntimeconfig.cache
 D:\CSWorkspace\ScreenSoundApp\ScreenSoundApp\obj\Debug\net8.0\ref\ScreenSoundApp.dll
+D:\CSWorkspace\ScreenSoundApp\ScreenSoundApp\obj\Debug\net8.0\ScreenSoundApp.sourcelink.json
